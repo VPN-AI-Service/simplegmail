@@ -65,7 +65,7 @@ class Gmail(object):
     def __init__(
         self,
         client_secret_file: str = 'client_secret.json',
-        creds_file: str = 'gmail_token.json',
+        creds_file: str = '/tmp/gmail_token.json',
         access_type: str = 'offline',
         noauth_local_webserver: bool = False,
         _creds: Optional[client.OAuth2Credentials] = None,
